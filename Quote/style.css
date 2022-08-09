@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Encode Sans', sans-serif;
+    overflow: hidden;
+    background-color: black;
+}
+
+p{
+    font-family: 'Yatra One', cursive;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    color: rgba(44, 93, 238, 0.599);
+    border-radius: 6px;
+
+    padding: 10px;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+small{
+    position: absolute;
+    bottom: 20vh;
+    right: 40vw;
+    letter-spacing: 0.8px;
+    
+}
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #664caf;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px rgb(255, 0, 0); */
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(255, 10, 10, 0.19);
+    
+}
